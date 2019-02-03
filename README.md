@@ -54,7 +54,7 @@ semilogx(nsamp,mean(p),'ko-','LineWidth',1.5,'MarkerFaceColor','k'); hold on
 semilogx(nsamp,mean(prayleigh),'k.-');
 ```
 
-The example above produces something like:
+The example above uses `circ_vmpdf()` and `circ_rtest()` from Philipp Berens Circular Statstics Toolbox for Matlab, available from https://github.com/circstat/circstat-matlab.git. The output should look something like:
 ![hermans-rasson vs rayleigh test](./images/example.png "Hermans-Rasson vs Rayleigh test")
 
 For a comparison of several tests for non-uniformity and some recommendations on their relative merits, see:
